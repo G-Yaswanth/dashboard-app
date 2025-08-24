@@ -1,3 +1,12 @@
+import '@/app/ui/global.css';
+import {inter} from '@/app/ui/fonts'
+
+export const metadata ={
+  title: "Dashboard App",
+  description: "Dasher"
+
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -5,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={`${inter.className} antialisaed`}>{children}</body>
     </html>
   );
 }
