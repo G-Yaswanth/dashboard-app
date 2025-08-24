@@ -1,5 +1,7 @@
-## Next.js App Router Course - Starter
+# dashboard-app
+Using Next.Js, creating a Dashboard application, which consists of HomePage, an authenticator, Dahsboard upon login, and add/update/delete the files from the dashboard. 
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
-
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+Tech Stack used:
+NextJs for Frontend
+Postgres for DB
+Vercel for Deployment
